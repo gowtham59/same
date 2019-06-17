@@ -1,18 +1,18 @@
-a=int(input())
-b=[]
-x=''
-for i in range(a):
+a1=int(input())
+b2=[]
+x3=''
+for i in range(a1):
     c=input()
-    b.append(c)
-for i in range(a-1):
-    d=b[i]
-    e=b[i+1]
-    for y in range(len(min(b,key=len))):
+    b2.append(c)
+for i in range(a1-1):
+    d=b2[i]
+    e=b2[i+1]
+    for y in range(len(min(b2,key=len))):
         if d[y]==e[y]:
-            x+=d[y]
+            x3+=d[y]
         else:
             break
-    b.pop(i)
-    b.insert(0,x)
-    x=''
-print(b[0])
+    b2.pop(i)
+    b2.insert(0,x3)
+    x3=''
+print(b2[0])
